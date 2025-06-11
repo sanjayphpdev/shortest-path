@@ -58,10 +58,23 @@ function shortestPath(graph, start, end) {
 }
 
 // Step 6: Run example query
-const from = "X7898980";
-const to = "T/2345";
+const from = "T/2345";
+const to = "M60";
 const path = shortestPath(graph, from, to);
 
+/*
 console.log("Entities:", entities);
 console.log("Graph:", graph);
 console.log(`Shortest path from ${from} to ${to}:`, path || "No path found");
+*/
+if (path) {
+  const detailedPath = path.map((key) => ({
+    key,
+    class: entities[key]?.class || "Unknown",
+  }));
+
+  console.log("Shortest path with details:");
+  console.table(detailedPath);
+} else {
+  console.log(`No path found from ${from} to ${to}`);
+}
