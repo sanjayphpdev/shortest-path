@@ -35,9 +35,7 @@ npm run dev
 
 ## Usage
 After running the project, the console will output:
-1. Parsed entities and associations
-2. Constructed graph
-3. Shortest path from a from node to a to node
+Include the names and classifications of all nodes encountered when traversing the shortest path.
 
 ---
 
