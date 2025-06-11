@@ -34,8 +34,7 @@ npm run dev
 ---
 
 ## Usage
-After running the project, the console will output:
-Include the names and classifications of all nodes encountered when traversing the shortest path.
+After running the project, the console will output the names and classifications of all nodes encountered when traversing the shortest path.
 
 ---
 
