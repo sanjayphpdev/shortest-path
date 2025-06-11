@@ -22,18 +22,18 @@ Follow these steps to clone, install, and run the project locally.
 ```bash
 git clone https://github.com/sanjayphpdev/shortest-path
 
-**### 2. Navigate to the Project Directory**
+### **2. Navigate to the Project Directory**
 cd shortest-path
 
-**### 3. Install Dependencies**
+### **3. Install Dependencies**
 npm install
 
-**### 4. Run the POC**
+### **4. Run the POC**
 npm run dev
 
 ---
 
-**### Usage**
+## **Usage**
 After running the project, the console will output:
 1. Parsed entities and associations
 2. Constructed graph
@@ -41,7 +41,7 @@ After running the project, the console will output:
 
 ---
 
-**### Customization**
+## **Customization**
 To test different nodes for the shortest path:
 1. Open index.js
 2. Modify the following lines:
@@ -52,12 +52,12 @@ npm run dev
 
 ---
 
-**### XML File Format for data input**
+## **XML File Format for data input**
 Refer attached sample within root directory (example.xml)
 
 ---
 
-**Notes**
+## **Notes**
 - This is a simple proof-of-concept.
 - Associations are unidirectional (from primary to secondary).
 - Entities must have unique keys across all classes.
