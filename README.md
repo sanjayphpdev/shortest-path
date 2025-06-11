@@ -62,8 +62,28 @@ Refer attached sample within root directory (example.xml)
 - Associations are unidirectional (from primary to secondary).
 - Entities must have unique keys across all classes.
 ---
-👨‍💻 Author
+ ##  Author
 ```
 Sanjay Yadav
 GitHub: @sanjayphpdev
 ```
+## What is left out
+1. Real XML Upload Flow
+	- Currently, the XML is read from a local file. Upload via a web interface is not implemented.
+2. File Validation.
+	- No checks are performed to ensure the uploaded file is a valid XML or matches the expected schema.
+3. Data Validation.
+	- There is no verification for things like duplicate entities.
+4. Dynamic parameter for primary and secondary nodes.
+	- Start and end nodes are hardcoded. Dynamic selection through CLI, API, or UI is not implemented yet.
+5. Authentication is missing to access this application.
+	- The application is accessible without any login or role-based access control.
+
+## What more we can able to do with more time and scope.
+- Can find levels of connection between two nodes. eg : 1st , 2nd, 3rd
+- We can store the xml entities data and there relationship into database for advanced querying and auditing. eg : MySQL.
+- We can also read and parse remote xml file eg : S3 Bucket, URL
+- Analytics & Reports (Downloadable & Graphical & Dashboard & Animated)
+- Make it a CLI Tool accepting --filePath , --from and --to nodes params.
+- Unit testing.
+- Dockerize this application.
