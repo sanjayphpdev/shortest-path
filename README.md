@@ -62,11 +62,6 @@ Refer attached sample within root directory (example.xml)
 - Associations are unidirectional (from primary to secondary).
 - Entities must have unique keys across all classes.
 ---
- ##  Author
-```
-Sanjay Yadav
-GitHub: @sanjayphpdev
-```
 ## What is left out
 1. Real XML Upload Flow
 	- Currently, the XML is read from a local file. Upload via a web interface is not implemented.
@@ -87,3 +82,9 @@ GitHub: @sanjayphpdev
 - Make it a CLI Tool accepting --filePath , --from and --to nodes params.
 - Unit testing.
 - Dockerize this application.
+---
+ ##  Author
+```
+Sanjay Yadav
+GitHub: @sanjayphpdev
+```
